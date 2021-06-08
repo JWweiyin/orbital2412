@@ -7,7 +7,7 @@ TagManager:
   - Buttons
   - Lanes
   - Note
-  - Test
+  - END
   layers:
   - Default
   - TransparentFX
