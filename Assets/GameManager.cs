@@ -20,6 +20,13 @@ public class GameManager : MonoBehaviour
     public GameObject completeLevelUI;
     public Text statusText;
 
+    public float songBPM;
+    public float secPerBeat;
+    public float songPosition;
+    public float songPositionInBeats;
+    public float SongTime;
+    public AudioSource musicSource;
+
     // Start is called before the first frame update
     void Start()
         {
@@ -28,11 +35,17 @@ public class GameManager : MonoBehaviour
         goodHit = (int)(perfectHit * 0.75);
         badHit = (int)(perfectHit * 0.5);
         completeLevelUI.SetActive(false);
+
+        secPerBeat = 60f / songBPM;
+        SongTime = (float)AudioSettings.dspTime;
         }
 
     // Update is called once per frame
     void Update()
         {
+        songPosition = (float)(AudioSettings.dspTime - SongTime);
+
+        songPositionInBeats = songPosition / secPerBeat;
 
         }
 
