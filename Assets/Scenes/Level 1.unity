@@ -300,7 +300,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 324
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &16822474
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -428,7 +433,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 179
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &23782164
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -556,7 +566,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 251
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &49197664
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -684,7 +699,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 131
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &63774258
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -812,7 +832,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 253
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &87095757
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -911,7 +936,7 @@ Transform:
   m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_Children: []
   m_Father: {fileID: 1279727458}
-  m_RootOrder: 97
+  m_RootOrder: 96
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
 --- !u!136 &99358172
 CapsuleCollider:
@@ -940,7 +965,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 418
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &99358174
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1163,7 +1193,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 73
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &118152781
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1291,7 +1326,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 133
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &120726768
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1514,7 +1554,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 365
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &158135557
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1642,7 +1687,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 389
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &197304279
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1770,7 +1820,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 155
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &201796920
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1898,7 +1953,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 313
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &256112454
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2026,7 +2086,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 157
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &260100316
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2250,7 +2315,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 145
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &386408224
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2539,7 +2609,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 301
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &400650645
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2763,7 +2838,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 115
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &423314084
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2891,7 +2971,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 377
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &423556940
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2956,134 +3041,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 423556936}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &463454875
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 463454876}
-  - component: {fileID: 463454881}
-  - component: {fileID: 463454880}
-  - component: {fileID: 463454879}
-  - component: {fileID: 463454878}
-  - component: {fileID: 463454877}
-  m_Layer: 0
-  m_Name: Note (99)
-  m_TagString: Note
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &463454876
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 463454875}
-  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -3.75, y: 0, z: -417}
-  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
-  m_Children: []
-  m_Father: {fileID: 1279727458}
-  m_RootOrder: 98
-  m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
---- !u!136 &463454877
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 463454875}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &463454878
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 463454875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbb94f90588bd38448b5fe2803b88932, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  beatTempo: 0
-  speed: 4
---- !u!54 &463454879
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 463454875}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 6
-  m_CollisionDetection: 0
---- !u!23 &463454880
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 463454875}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: e8d737703c4ce3e4fa2e4e616f18f8ec, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &463454881
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 463454875}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &481702760
 GameObject:
@@ -3226,7 +3183,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 249
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &489559899
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3354,7 +3316,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 61
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &537312350
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3482,7 +3449,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 265
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &552224615
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3610,7 +3582,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 202
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &554184044
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3738,7 +3715,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 319
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &557189450
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3866,7 +3848,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 345
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &571750510
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4090,7 +4077,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 287
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &584230654
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4218,7 +4210,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 235
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &603155878
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4346,7 +4343,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 227
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &670697037
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4474,7 +4476,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 259
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &685538020
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4774,7 +4781,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 49
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &726833168
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4916,7 +4928,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 347
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &781495793
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5109,135 +5126,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
---- !u!1 &817311539
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 817311540}
-  - component: {fileID: 817311545}
-  - component: {fileID: 817311544}
-  - component: {fileID: 817311543}
-  - component: {fileID: 817311542}
-  - component: {fileID: 817311541}
-  m_Layer: 0
-  m_Name: Note (94)
-  m_TagString: Note
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &817311540
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 817311539}
-  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -2.25, y: 0, z: -396}
-  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
-  m_Children: []
-  m_Father: {fileID: 1279727458}
-  m_RootOrder: 93
-  m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
---- !u!136 &817311541
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 817311539}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &817311542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 817311539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbb94f90588bd38448b5fe2803b88932, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  beatTempo: 0
-  speed: 4
---- !u!54 &817311543
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 817311539}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 6
-  m_CollisionDetection: 0
---- !u!23 &817311544
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 817311539}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: e8d737703c4ce3e4fa2e4e616f18f8ec, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &817311545
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 817311539}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 13
+  timeLeft: 0
+  distLeft: 0
 --- !u!1 &835802018
 GameObject:
   m_ObjectHideFlags: 0
@@ -5300,7 +5194,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 387
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &835802022
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5780,7 +5679,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 25
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &947660555
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5936,7 +5840,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 281
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &959780018
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6064,7 +5973,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 391
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &967711930
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6192,7 +6106,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 323
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &970086421
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6416,7 +6335,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 355
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &984964525
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6639,7 +6563,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 357
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1065376618
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6753,7 +6682,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 120
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 37
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1067441153
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7104,7 +7038,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 372
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1077191227
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7306,9 +7245,15 @@ MonoBehaviour:
   ghit: 0
   bhit: 0
   miss: 0
-  no_of_notes: 99
+  no_of_notes: 97
   completeLevelUI: {fileID: 935370932}
   statusText: {fileID: 481702761}
+  songBPM: 240
+  secPerBeat: 0
+  songPosition: 0
+  songPositionInBeats: 0
+  SongTime: 0
+  musicSource: {fileID: 0}
 --- !u!4 &1106934587
 Transform:
   m_ObjectHideFlags: 0
@@ -7481,7 +7426,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 330
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1122772884
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7818,7 +7768,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 367
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1191270690
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7946,7 +7901,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 337
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1196863138
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8074,7 +8034,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 193
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1202628500
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8202,7 +8167,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 97
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1217370645
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8330,7 +8300,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 359
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1233073373
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8458,7 +8433,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 379
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1235468797
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8723,12 +8703,10 @@ Transform:
   - {fileID: 967711927}
   - {fileID: 1547915143}
   - {fileID: 2101270628}
-  - {fileID: 817311540}
   - {fileID: 1776842619}
   - {fileID: 2080803964}
   - {fileID: 1561246553}
   - {fileID: 99358171}
-  - {fileID: 463454876}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8794,7 +8772,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 327
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1323421005
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8922,7 +8905,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 331
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1369471671
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9050,7 +9038,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 286
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1401238357
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9484,7 +9477,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 241
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1440978180
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9612,7 +9610,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 282
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1447972803
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9740,7 +9743,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 79
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1461202269
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9868,7 +9876,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 349
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1462185724
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10241,7 +10254,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 385
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1534967362
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10369,7 +10387,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 393
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1547915146
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10677,7 +10700,7 @@ Transform:
   m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_Children: []
   m_Father: {fileID: 1279727458}
-  m_RootOrder: 96
+  m_RootOrder: 95
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
 --- !u!136 &1561246554
 CapsuleCollider:
@@ -10706,7 +10729,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 409
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1561246556
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10834,7 +10862,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 229
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1576187138
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10962,7 +10995,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 280
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1629353331
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11090,7 +11128,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 103
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1636747187
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11218,7 +11261,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 339
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1639204201
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11346,7 +11394,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 288
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1647967379
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11773,7 +11826,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 225
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1688377300
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11887,7 +11945,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 55
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1707123560
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12029,7 +12092,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 329
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1712762696
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12157,7 +12225,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 199
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1737686057
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12379,7 +12452,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 205
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1752784143
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12493,7 +12571,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 43
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1758178771
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12635,7 +12718,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 277
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1771469007
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12734,7 +12822,7 @@ Transform:
   m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_Children: []
   m_Father: {fileID: 1279727458}
-  m_RootOrder: 94
+  m_RootOrder: 93
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
 --- !u!136 &1776842620
 CapsuleCollider:
@@ -12763,7 +12851,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 397
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1776842622
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12891,7 +12984,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 315
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1784456149
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13228,7 +13326,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 121
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1789985335
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13356,7 +13459,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 217
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1795846074
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13484,7 +13592,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 341
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1808033025
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13598,7 +13711,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 59
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1810107770
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13740,7 +13858,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 169
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1823620109
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13868,7 +13991,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 361
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1829937063
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13996,7 +14124,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 363
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1830025292
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14124,7 +14257,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 109
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1847706205
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14252,7 +14390,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 273
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1866281114
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14463,7 +14606,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 343
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1885162204
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14591,7 +14739,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 380
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1911096170
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14719,7 +14872,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 275
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1912360048
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14847,7 +15005,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 289
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1954928348
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14975,7 +15138,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 373
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1959274075
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15103,7 +15271,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 288
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &1959975014
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15327,7 +15500,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 181
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &2034644159
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15455,7 +15633,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 378
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &2039014123
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15583,7 +15766,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 85
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &2041049186
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15697,7 +15885,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 57
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &2061524429
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15839,7 +16032,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 325
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &2079241567
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15938,7 +16136,7 @@ Transform:
   m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_Children: []
   m_Father: {fileID: 1279727458}
-  m_RootOrder: 95
+  m_RootOrder: 94
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
 --- !u!136 &2080803965
 CapsuleCollider:
@@ -15967,7 +16165,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 403
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &2080803967
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16095,7 +16298,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 283
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &2082285323
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16196,6 +16404,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   beatTempo: 0
   speed: 4
+  speed2: 0
+  gm: {fileID: 0}
+  beatToHit: 0
+  timeLeft: 0
+  distLeft: 0
 --- !u!65 &2094243940
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16350,7 +16563,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 91
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &2101118535
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16478,7 +16696,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 395
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &2101270631
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16606,7 +16829,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 375
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &2119752720
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16734,7 +16962,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 317
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &2120033442
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16862,7 +17095,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 0
-  speed: 4
+  speed: 0
+  speed2: 4
+  gm: {fileID: 1106934586}
+  beatToHit: 371
+  timeLeft: 0
+  distLeft: 0
 --- !u!54 &2137269307
 Rigidbody:
   m_ObjectHideFlags: 0

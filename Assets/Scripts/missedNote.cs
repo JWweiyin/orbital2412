@@ -5,6 +5,7 @@ using UnityEngine;
 public class missedNote : MonoBehaviour
 {
     public GameManager gm;
+    GameObject note;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +23,11 @@ public class missedNote : MonoBehaviour
         if (col.gameObject.tag == "Note")
             {
             gm.mHit();
-            Destroy(col.gameObject);
+            note = col.gameObject;
+            if (note)
+                {
+                Destroy(note);
+                }
             }
         }
 }
