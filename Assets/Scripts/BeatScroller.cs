@@ -27,6 +27,7 @@ public class BeatScroller : MonoBehaviour
     void Update()
     {
         distLeft = rb.transform.position.z;
+
         if (distLeft <= -0.01)
             {
             timeLeft = (beatToHit - gm.songPositionInBeats) * gm.secPerBeat;
@@ -38,5 +39,6 @@ public class BeatScroller : MonoBehaviour
             {
             rb.velocity = new Vector3(0f, 0f, speed2);
             }
+
      }
 }

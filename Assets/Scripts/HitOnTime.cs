@@ -19,7 +19,7 @@ public class HitOnTime : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
         {
-        if (col.gameObject.tag == "Test")
+        if (col.gameObject.tag == "Note")
             {
             Debug.Log("We Hit");
             }

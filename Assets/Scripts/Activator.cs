@@ -23,16 +23,17 @@ public class Activator : MonoBehaviour
     // Update is called once per frame
     void Update()
         {
+
         if (Input.GetKeyDown(key) && active)
             {
-            if (note.transform.position.z <= 0.30f && note.transform.position.z >= -0.30f)
+            if (note.transform.position.z <= 0.50f && note.transform.position.z >= -0.50f)
                 {
                 gm.pHit();
                 if (note){
                     Destroy(note);
                     }
                 }
-            else if (note.transform.position.z <= 0.60f && note.transform.position.z >= -0.60f)
+            else if (note.transform.position.z <= 1.00f && note.transform.position.z >= -1.00f)
                 {
                 gm.gHit();
                 if (note){
@@ -46,10 +47,10 @@ public class Activator : MonoBehaviour
                     Destroy(note);
                     }
                 }
-
-
             active = false;
             }
+
+
         if (Input.GetKeyDown(key))
             {
             source.Play();
