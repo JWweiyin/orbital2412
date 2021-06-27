@@ -13,7 +13,7 @@
 <li>Story Mode now features a visual novel prologue, and one rhythm game level. </li>
 <li>The arcade mode menu now features 5 rhythm game levels for the user to choose from, as well as a button to return to the main menu.</li> 
 <li>Rhythm game levels now feature a results screen upon the conclusion of each level, with a button to return to the arcade mode screen.</li> 
-<br> <br>
+
 <b><h3>Features to be implemented in Milestone 3</h3></b>
 <li>Fully fledged Story Mode, which incorporates a full plotline and eight rhythm game levels.
 <li>Implementation of a Pass/Fail system for rhythm game levels. Upon scoring more than 700000 points for a rhythm game level, the user would have been deemed to have passed the level and the level will be available in arcade mode. Otherwise, the level will not be available in arcade mode.
