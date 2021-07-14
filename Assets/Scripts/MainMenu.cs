@@ -10,4 +10,11 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Quit");
         Application.Quit();
         }
-}
+
+    public int level;
+
+    public void arcadeloadlevel()
+        {
+        SceneManager.LoadScene(level);
+        }
+    }

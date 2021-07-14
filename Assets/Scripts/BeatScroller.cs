@@ -32,7 +32,7 @@ public class BeatScroller : MonoBehaviour
             {
             timeLeft = (beatToHit - gm.songPositionInBeats) * gm.secPerBeat;
             distLeft = rb.transform.position.z;
-            speed = Mathf.Abs(distLeft / timeLeft);
+            speed = Mathf.Abs(distLeft / timeLeft); 
             rb.velocity = new Vector3(0f, 0f, speed);
             }
         else

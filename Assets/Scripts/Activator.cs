@@ -26,14 +26,14 @@ public class Activator : MonoBehaviour
 
         if (Input.GetKeyDown(key) && active)
             {
-            if (note.transform.position.z <= 0.50f && note.transform.position.z >= -0.50f)
+            if (note.transform.position.z <= -0.50f && note.transform.position.z >= -1.50f)
                 {
                 gm.pHit();
                 if (note){
                     Destroy(note);
                     }
                 }
-            else if (note.transform.position.z <= 1.00f && note.transform.position.z >= -1.00f)
+            else if (note.transform.position.z <= 0.00f && note.transform.position.z >= -2.00f)
                 {
                 gm.gHit();
                 if (note){

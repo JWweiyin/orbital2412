@@ -55,18 +55,23 @@ public class GameManager : MonoBehaviour
         goodHit = (int)(perfectHit * 0.75);
         badHit = (int)(perfectHit * 0.5);
         secPerBeat = 60f / songBPM;
-        SongTime = (float)AudioSettings.dspTime;
+
         completeLevelUI.SetActive(false);
+        SongTime = (float)AudioSettings.dspTime;
 
         }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
         {
         songPosition = (float)(AudioSettings.dspTime - SongTime);
-
         songPositionInBeats = songPosition / secPerBeat;
 
+
+        }
+    void Update()
+        {
+        Debug.Log(songPosition.ToString());
         }
 
     public void smode()
