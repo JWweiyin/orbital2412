@@ -10,25 +10,38 @@ public class Activator : MonoBehaviour
     GameObject note;
     public GameManager gm;
     private AudioSource source;
+    public ParticleSystem ps;
+
+    public Color perfect;
+    public Color good;
+    public Color bad;
+
+    public int laneint;
+    private string keystring;
 
 
-    
-    
+
     // Start is called before the first frame update
     void Start()
         {
         source = GetComponent<AudioSource>();
+        keystring = laneint.ToString();
+        key = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString(keystring, "D"));
         }
 
     // Update is called once per frame
     void Update()
         {
 
+        var main = ps.main;
+
         if (Input.GetKeyDown(key) && active)
             {
             if (note.transform.position.z <= -0.50f && note.transform.position.z >= -1.50f)
                 {
                 gm.pHit();
+                main.startColor = perfect;
+                ps.Play();
                 if (note){
                     Destroy(note);
                     }
@@ -36,6 +49,8 @@ public class Activator : MonoBehaviour
             else if (note.transform.position.z <= 0.00f && note.transform.position.z >= -2.00f)
                 {
                 gm.gHit();
+                main.startColor = good;
+                ps.Play();
                 if (note){
                     Destroy(note);
                     }
@@ -43,6 +58,8 @@ public class Activator : MonoBehaviour
             else
                 {
                 gm.bHit();
+                main.startColor = bad;
+                ps.Play();
                 if (note){
                     Destroy(note);
                     }
@@ -54,6 +71,7 @@ public class Activator : MonoBehaviour
         if (Input.GetKeyDown(key))
             {
             source.Play();
+            //ps.Play();
             }
 
         }
