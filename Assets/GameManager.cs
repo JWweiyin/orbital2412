@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     public GameObject completeLevelUI;
     public GameObject amodecompleteUI;
     public GameObject smodecompleteUI;
+    public GameObject nextUI;
 
     public Text statusText;
     public Text comboText;
@@ -47,18 +48,40 @@ public class GameManager : MonoBehaviour
     public Color bad;
     public Color missc;
 
+    public int levelNbr;
+    public int levelInd;
+    public int showControls;
+    public int inStory;
+    public string clearCode;
+    public string hsCode;
+
+    public int cleared;
+    public int hs;
+
     // Start is called before the first frame update
     void Start()
         {
         instance = this;
+        musicSource.volume = PlayerPrefs.GetFloat("Music Volume", 1f);
         perfectHit = 1000000 / no_of_notes;
         goodHit = (int)(perfectHit * 0.75);
         badHit = (int)(perfectHit * 0.5);
         secPerBeat = 60f / songBPM;
 
-        completeLevelUI.SetActive(false);
+        completeLevelUI.SetActive(false); 
+        amodecompleteUI.SetActive(false);
+        smodecompleteUI.SetActive(false);
+        nextUI.SetActive(false);
         SongTime = (float)AudioSettings.dspTime;
 
+        clearCode = 'c' + levelNbr.ToString();
+        hsCode = 'h' + levelNbr.ToString();
+        Debug.Log(clearCode);
+        inStory = PlayerPrefs.GetInt("In Story", 0);
+        cleared = PlayerPrefs.GetInt(clearCode, 0);
+        hs = PlayerPrefs.GetInt(hsCode, 0);
+        PlayerPrefs.SetInt("Save Point", levelInd);
+        PlayerPrefs.Save();
         }
 
     // Update is called once per frame
@@ -141,14 +164,47 @@ public class GameManager : MonoBehaviour
         btext.text = bhit.ToString();
         mtext.text = miss.ToString();
         rscore.text = currentScore.ToString();
+
         rcombo.text = bestStreak.ToString();
         Debug.Log("Level Complete");
+
+        if (cleared == 0)
+            {
+            if (currentScore > 700000)
+                {
+                cleared = 1;
+                PlayerPrefs.SetInt(clearCode, cleared);
+                PlayerPrefs.Save();
+                }
+            }
+
+        if (currentScore > hs)
+            {
+            PlayerPrefs.SetInt(hsCode, currentScore);
+            PlayerPrefs.Save();
+            }
+
         completeLevelUI.SetActive(true);
 
- 
+        if (inStory == 0)
+            {
             amodecompleteUI.SetActive(true);
-            
+            }
+        else if (inStory == 1)
+            {
+            if (cleared == 1)
+                {
+                nextUI.SetActive(true);
+                }
+            smodecompleteUI.SetActive(true);
+            }
 
+        }
 
+    public void quitStory()
+        {
+        inStory = 0;
+        PlayerPrefs.SetInt("In Story", inStory);
+        PlayerPrefs.Save();
         }
     }
