@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour
     public GameObject amodecompleteUI;
     public GameObject smodecompleteUI;
     public GameObject nextUI;
+    public GameObject passfailUI;
+    public GameObject restartUI;
 
     public Text statusText;
     public Text comboText;
@@ -51,12 +53,15 @@ public class GameManager : MonoBehaviour
     public int levelNbr;
     public int levelInd;
     public int showControls;
+    public int showControls7;
     public int inStory;
     public string clearCode;
     public string hsCode;
 
     public int cleared;
     public int hs;
+
+    public Text passfail;
 
     // Start is called before the first frame update
     void Start()
@@ -71,17 +76,31 @@ public class GameManager : MonoBehaviour
         completeLevelUI.SetActive(false); 
         amodecompleteUI.SetActive(false);
         smodecompleteUI.SetActive(false);
+        passfailUI.SetActive(false);
+        restartUI.SetActive(false);
         nextUI.SetActive(false);
         SongTime = (float)AudioSettings.dspTime;
 
         clearCode = 'c' + levelNbr.ToString();
         hsCode = 'h' + levelNbr.ToString();
-        Debug.Log(clearCode);
+        //Debug.Log(clearCode);
         inStory = PlayerPrefs.GetInt("In Story", 0);
-        cleared = PlayerPrefs.GetInt(clearCode, 0);
+        cleared = PlayerPrefs.GetInt(clearCode);
         hs = PlayerPrefs.GetInt(hsCode, 0);
-        PlayerPrefs.SetInt("Save Point", levelInd);
-        PlayerPrefs.Save();
+
+        if (inStory == 1)
+            {
+            PlayerPrefs.SetInt("Save Point", levelInd);
+            PlayerPrefs.Save();
+            }
+
+
+        showControls = PlayerPrefs.GetInt("Show Controls", 1);
+
+        showControls7 = PlayerPrefs.GetInt("Show Controls 7", 1);
+
+
+
         }
 
     // Update is called once per frame
@@ -167,10 +186,18 @@ public class GameManager : MonoBehaviour
 
         rcombo.text = bestStreak.ToString();
         Debug.Log("Level Complete");
-
+        if (currentScore >= 700000)
+            {
+            passfail.color = perfect;
+            passfail.text = "PASSED!";
+            } else
+            {
+            passfail.color = missc;
+            passfail.text = "FAILED";
+            }
         if (cleared == 0)
             {
-            if (currentScore > 700000)
+            if (currentScore >= 700000)
                 {
                 cleared = 1;
                 PlayerPrefs.SetInt(clearCode, cleared);
@@ -185,6 +212,8 @@ public class GameManager : MonoBehaviour
             }
 
         completeLevelUI.SetActive(true);
+        passfailUI.SetActive(true);
+        restartUI.SetActive(true);
 
         if (inStory == 0)
             {

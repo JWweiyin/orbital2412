@@ -175,7 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb32b906eb0e85043b3cf2dd5db1093b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 3
+  sceneInd: 3
 --- !u!114 &188375704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,6 +235,18 @@ MonoBehaviour:
       - m_Target: {fileID: 188375703}
         m_TargetAssemblyTypeName: arcadeload, Assembly-CSharp
         m_MethodName: arcadeloadlevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2102073653}
+        m_TargetAssemblyTypeName: PlayerSave, Assembly-CSharp
+        m_MethodName: saveMade
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -428,7 +440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb32b906eb0e85043b3cf2dd5db1093b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 0
+  sceneInd: 0
 --- !u!1 &307976958
 GameObject:
   m_ObjectHideFlags: 0
@@ -1604,6 +1616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15f8640422784db46ae4b9d3ba6de54c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  b: {fileID: 307976961}
 --- !u!4 &2102073654
 Transform:
   m_ObjectHideFlags: 0

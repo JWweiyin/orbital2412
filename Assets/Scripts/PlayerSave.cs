@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerSave : MonoBehaviour
 {
@@ -9,8 +10,11 @@ public class PlayerSave : MonoBehaviour
     private Dictionary<string, int> highScore = new Dictionary<string, int>();
     private int savePoint;
     private int showControls;
+    private int showControls7;
     private int inStory;
     private int level;
+    public int hasFile;
+    public Button b;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +39,20 @@ public class PlayerSave : MonoBehaviour
 
         savePoint = 3;
         showControls = 1;
+        showControls7 = 1;
+        hasFile = 0;
         inStory = 0;
+
+        hasFile = PlayerPrefs.GetInt("Has File", 0);
+
+        if (hasFile == 0)
+            {
+            b.interactable = false;
+            }
+        else if (hasFile == 1)
+            {
+            b.interactable = true;
+            }
         }
 
     public void SaveProgress()
@@ -52,6 +69,14 @@ public class PlayerSave : MonoBehaviour
         PlayerPrefs.SetInt("Show Controls", showControls);
         PlayerPrefs.Save();
         }
+
+    public void saveMade()
+        {
+        hasFile = 1;
+        PlayerPrefs.SetInt("Has File", 1);
+        PlayerPrefs.Save();
+        }
+
 
     public void enterStory()
         {
@@ -73,9 +98,21 @@ public class PlayerSave : MonoBehaviour
         SceneManager.LoadScene(level);
         }
     
-// Update is called once per frame
-void Update()
-    {
-        
-    }
+    public void deleteData()
+        {
+        foreach (var key in cleared)
+            {
+            PlayerPrefs.SetInt(key.Key, 0);
+            }
+        foreach (var key in highScore)
+            {
+            PlayerPrefs.SetInt(key.Key, 0);
+            }
+        PlayerPrefs.SetInt("Save Point", 3);
+        PlayerPrefs.SetInt("Show Controls", 1);
+        PlayerPrefs.SetInt("Show Controls 7", 1);
+        PlayerPrefs.SetInt("Has File", 0);
+        PlayerPrefs.Save();
+        }
+
 }

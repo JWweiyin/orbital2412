@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3911180846627582590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3911180846627582587}
+  - component: {fileID: 3911180846627582585}
+  - component: {fileID: 3911180846627582584}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &3911180846627582587
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3911180846627582590}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 263.06393, y: 93.15952, z: 22.660309}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3911180846627582585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3911180846627582590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 336237d5a6dc42f4c814ff87708dbce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storymode: 0
+  currentScore: 0
+  currStreak: 0
+  bestStreak: 0
+  perfectHit: 0
+  goodHit: 0
+  badHit: 0
+  phit: 0
+  ghit: 0
+  bhit: 0
+  miss: 0
+  no_of_notes: 638
+  completeLevelUI: {fileID: 0}
+  amodecompleteUI: {fileID: 0}
+  smodecompleteUI: {fileID: 0}
+  nextUI: {fileID: 0}
+  passfailUI: {fileID: 0}
+  restartUI: {fileID: 0}
+  statusText: {fileID: 0}
+  comboText: {fileID: 0}
+  scoreText: {fileID: 0}
+  songBPM: 480
+  secPerBeat: 0
+  songPosition: 0
+  songPositionInBeats: 0
+  SongTime: 0
+  musicSource: {fileID: 0}
+  ptext: {fileID: 0}
+  gtext: {fileID: 0}
+  btext: {fileID: 0}
+  mtext: {fileID: 0}
+  rscore: {fileID: 0}
+  rcombo: {fileID: 0}
+  perfect: {r: 0.8039216, g: 0.25490198, b: 0.8117647, a: 1}
+  good: {r: 0.21176471, g: 0.6784314, b: 0.12941177, a: 1}
+  bad: {r: 0.85882354, g: 0.58431375, b: 0.07058824, a: 1}
+  missc: {r: 0.7878726, g: 0.5896226, b: 1, a: 1}
+  levelNbr: 8
+  levelInd: 17
+  showControls: 0
+  inStory: 0
+  clearCode: 
+  hsCode: 
+  cleared: 0
+  hs: 0
+  passfail: {fileID: 0}
+--- !u!114 &3911180846627582584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3911180846627582590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 567f9fdd7c566854fafd0e7cf226d7ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenuUI: {fileID: 0}
+  musicSource: {fileID: 0}
