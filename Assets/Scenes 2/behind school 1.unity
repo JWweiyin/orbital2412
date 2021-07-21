@@ -385,8 +385,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1559773908}
   m_HandleRect: {fileID: 1559773907}
   m_Direction: 2
-  m_Value: 0.9999996
-  m_Size: 0.6694546
+  m_Value: 0.9999995
+  m_Size: 0.6951403
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1052,7 +1052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb32b906eb0e85043b3cf2dd5db1093b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 1
+  sceneInd: 0
 --- !u!1 &336982641
 GameObject:
   m_ObjectHideFlags: 0
@@ -4634,6 +4634,7 @@ GameObject:
   - component: {fileID: 1605397082}
   - component: {fileID: 1605397083}
   - component: {fileID: 1605397081}
+  - component: {fileID: 1605397084}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4743,7 +4744,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 77
     y: 61
-    width: 132.66666
+    width: 92.666664
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4790,6 +4791,7 @@ MonoBehaviour:
   - {fileID: 1605397079}
   - {fileID: 1605397076}
   - {fileID: 1605397080}
+  - {fileID: 1605397084}
   - {fileID: 1605397081}
   - {fileID: 1605397082}
   suppressAllAutoSelections: 0
@@ -4819,8 +4821,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1605397044}
-  selectedCommands:
-  - {fileID: 1605397082}
+  selectedCommands: []
   variables:
   - {fileID: 1605397040}
   description: 
@@ -5758,7 +5759,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1605397039}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
   m_Name: 
@@ -5810,6 +5811,20 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
+--- !u!114 &1605397084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605397039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 49
+  indentLevel: 0
 --- !u!1 &1663571103
 GameObject:
   m_ObjectHideFlags: 0

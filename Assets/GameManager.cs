@@ -113,7 +113,7 @@ public class GameManager : MonoBehaviour
         }
     void Update()
         {
-        Debug.Log(songPosition.ToString());
+        //Debug.Log(songPosition.ToString());
         }
 
     public void smode()
@@ -192,7 +192,7 @@ public class GameManager : MonoBehaviour
             passfail.text = "PASSED!";
             } else
             {
-            passfail.color = missc;
+            //passfail.color = missc;
             passfail.text = "FAILED";
             }
         if (cleared == 0)
@@ -224,6 +224,9 @@ public class GameManager : MonoBehaviour
             if (cleared == 1)
                 {
                 nextUI.SetActive(true);
+                levelInd += 1;
+                PlayerPrefs.SetInt("Save Point", levelInd);
+                PlayerPrefs.Save();
                 }
             smodecompleteUI.SetActive(true);
             }

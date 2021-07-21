@@ -405,7 +405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb32b906eb0e85043b3cf2dd5db1093b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 1
+  sceneInd: 0
 --- !u!1 &21806223
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,7 +456,6 @@ GameObject:
   - component: {fileID: 21806263}
   - component: {fileID: 21806264}
   - component: {fileID: 21806265}
-  - component: {fileID: 21806266}
   - component: {fileID: 21806267}
   m_Layer: 0
   m_Name: Flowchart
@@ -503,7 +502,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 77.48816
     y: 65.02172
-    width: 77.333336
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -546,9 +545,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 21806225}
+  - {fileID: 21806256}
   selectedCommands:
-  - {fileID: 21806260}
+  - {fileID: 21806263}
   variables:
   - {fileID: 21806257}
   description: 
@@ -1232,7 +1231,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 46.3086
     y: 138.86235
-    width: 97.33333
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1316,7 +1315,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 271.31903
     y: 89.23807
-    width: 108.66667
+    width: 68.66667
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1350,7 +1349,6 @@ MonoBehaviour:
   - {fileID: 21806267}
   - {fileID: 21806265}
   - {fileID: 21806263}
-  - {fileID: 21806266}
   - {fileID: 21806262}
   suppressAllAutoSelections: 0
 --- !u!114 &21806257
@@ -1511,26 +1509,6 @@ MonoBehaviour:
   volume: 0
   fadeDuration: 2
   waitUntilFinished: 1
---- !u!114 &21806266
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 21806223}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 61
-  indentLevel: 0
-  duration: 1
-  targetAlpha: 1
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
-  fadeTweenType: 4
 --- !u!114 &21806267
 MonoBehaviour:
   m_ObjectHideFlags: 2
