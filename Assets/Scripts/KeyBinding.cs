@@ -27,6 +27,7 @@ public class KeyBinding : MonoBehaviour
         lane4.text = keys["4"].ToString();
         lane5.text = keys["5"].ToString();
         lane6.text = keys["6"].ToString();
+        SaveKeys();
         }
 
     // Update is called once per frame

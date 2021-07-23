@@ -26,7 +26,7 @@ public class Activator : MonoBehaviour
         {
         source = GetComponent<AudioSource>();
         keystring = laneint.ToString();
-        key = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString(keystring, "D"));
+        key = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString(keystring));
         source.volume = PlayerPrefs.GetFloat("SFX Volume", 1f);
         }
 
