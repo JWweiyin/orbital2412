@@ -2121,7 +2121,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 908161987}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.6792108
+  m_Size: 0.6543688
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4229,9 +4229,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1398837052}
-  selectedCommands:
-  - {fileID: 1398837053}
+  - {fileID: 1398837027}
+  selectedCommands: []
   variables:
   - {fileID: 1398837025}
   description: 

@@ -386,7 +386,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1559773907}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.654668
+  m_Size: 0.67888874
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2094,7 +2094,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0000743866, y: 0}
+  m_AnchoredPosition: {x: 14.300064, y: 0}
   m_SizeDelta: {x: -14.299988, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &748052533
@@ -4644,6 +4644,7 @@ GameObject:
   - component: {fileID: 1605397093}
   - component: {fileID: 1605397092}
   - component: {fileID: 1605397091}
+  - component: {fileID: 1605397094}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4751,7 +4752,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 77
+    x: 76
     y: 61
     width: 132.66666
     height: 40
@@ -4763,6 +4764,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1605397043}
+  - {fileID: 1605397094}
   - {fileID: 1605397083}
   - {fileID: 1605397041}
   - {fileID: 1605397047}
@@ -4831,9 +4833,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1605397086}
+  - {fileID: 1605397044}
   selectedCommands:
-  - {fileID: 1605397091}
+  - {fileID: 1605397094}
   variables:
   - {fileID: 1605397040}
   description: 
@@ -5839,7 +5841,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &1605397085
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5889,7 +5891,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1605397087
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5918,7 +5920,7 @@ MonoBehaviour:
   targetButton: {fileID: 1497872555}
 --- !u!114 &1605397089
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5939,7 +5941,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1605397090
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5960,7 +5962,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1605397091
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5988,7 +5990,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1605397092
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6009,7 +6011,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1605397093
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6028,6 +6030,24 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &1605397094
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605397039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 58
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 8922ce3b6c4f981438fec30c8868ffa8, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
 --- !u!1 &1663571103
 GameObject:
   m_ObjectHideFlags: 0

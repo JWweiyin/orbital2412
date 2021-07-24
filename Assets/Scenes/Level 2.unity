@@ -16897,9 +16897,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 361033348}
-        m_TargetAssemblyTypeName: arcadeload, Assembly-CSharp
-        m_MethodName: arcadeloadlevel
+      - m_Target: {fileID: 2027411234}
+        m_TargetAssemblyTypeName: pausemenu, Assembly-CSharp
+        m_MethodName: Reload
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -67536,6 +67536,7 @@ MonoBehaviour:
   controlsUI: {fileID: 2005458139}
   pauseMenuUI: {fileID: 1943157274}
   musicSource: {fileID: 2027411231}
+  sceneInd: 5
 --- !u!1 &2030715064
 GameObject:
   m_ObjectHideFlags: 0

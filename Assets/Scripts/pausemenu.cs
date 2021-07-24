@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class pausemenu : MonoBehaviour
     {
@@ -11,6 +12,7 @@ public class pausemenu : MonoBehaviour
     public GameObject controlsUI;
     public GameObject pauseMenuUI;
     public AudioSource musicSource;
+    public int sceneInd;
     private int inStory;
 
     void Start()
@@ -79,6 +81,12 @@ public class pausemenu : MonoBehaviour
             }
         }
 
+    public void Reload()
+        {
+        Resume();
+        SceneManager.LoadScene(sceneInd);
+        }
+
 
     public void Resume()
         {
@@ -100,6 +108,7 @@ public class pausemenu : MonoBehaviour
         {
         inStory = 0;
         PlayerPrefs.SetInt("In Story", inStory);
+        Resume();
         PlayerPrefs.Save();
         }
     }

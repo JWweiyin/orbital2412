@@ -5464,10 +5464,10 @@ RectTransform:
   m_Father: {fileID: 373674121}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 1092, y: 616}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &231708568
 MonoBehaviour:
@@ -20415,6 +20415,7 @@ MonoBehaviour:
   controlsUI: {fileID: 231708566}
   pauseMenuUI: {fileID: 1894070392}
   musicSource: {fileID: 456339440}
+  sceneInd: 9
 --- !u!1 &466806765
 GameObject:
   m_ObjectHideFlags: 0
@@ -52799,9 +52800,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 558687864}
-        m_TargetAssemblyTypeName: arcadeload, Assembly-CSharp
-        m_MethodName: arcadeloadlevel
+      - m_Target: {fileID: 456339442}
+        m_TargetAssemblyTypeName: pausemenu, Assembly-CSharp
+        m_MethodName: Reload
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -61898,9 +61899,9 @@ RectTransform:
   m_Father: {fileID: 231708567}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 512, y: 288}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -34, y: -20}
   m_SizeDelta: {x: 1024, y: 576}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1628567342
