@@ -10,7 +10,14 @@ public class KeyBinding : MonoBehaviour
     public Text lane1, lane2, lane3, lane4, lane5, lane6;
     private GameObject currentKey;
 
-
+    public void SaveKeys()
+        {
+        foreach (var key in keys)
+            {
+            PlayerPrefs.SetString(key.Key, key.Value.ToString());
+            }
+        PlayerPrefs.Save();
+        }
     // Start is called before the first frame update
     void Start()
     {
@@ -79,14 +86,7 @@ public class KeyBinding : MonoBehaviour
         currentKey = clicked;
         }
 
-    public void SaveKeys()
-        {
-        foreach (var key in keys)
-            {
-            PlayerPrefs.SetString(key.Key, key.Value.ToString());
-            }
-        PlayerPrefs.Save();
-        }
+
 
     public void ResetKeys()
         {
