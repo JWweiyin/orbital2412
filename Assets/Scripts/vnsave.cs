@@ -5,6 +5,8 @@ using UnityEngine;
 public class vnsave : MonoBehaviour
 {
     public int lvlInd;
+    public GameObject menub;
+    public GameObject dropdown;
 
 
 
@@ -13,6 +15,8 @@ public class vnsave : MonoBehaviour
     {
         PlayerPrefs.SetInt("Save Point", lvlInd);
         PlayerPrefs.Save();
+        //menub.SetActive(true);
+        //dropdown.SetActive(true);
     }
 
     public void quitStory()
@@ -20,8 +24,15 @@ public class vnsave : MonoBehaviour
 
         PlayerPrefs.SetInt("In Story", 0);
         PlayerPrefs.Save();
+        destroyUI();
+
         }
 
+    public void destroyUI()
+        {
+        menub.SetActive(false);
+        dropdown.SetActive(false);
+        }
     // Update is called once per frame
     void Update()
     {
