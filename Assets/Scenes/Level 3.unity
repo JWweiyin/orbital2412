@@ -8708,8 +8708,10 @@ MonoBehaviour:
   inStory: 0
   clearCode: 
   hsCode: 
+  aCode: 
   cleared: 0
   hs: 0
+  attempts: 0
   passfail: {fileID: 608410928}
 --- !u!82 &353022727
 AudioSource:
@@ -19951,6 +19953,7 @@ MonoBehaviour:
   good: {r: 0.21176471, g: 0.6784314, b: 0.12941177, a: 0.39215687}
   bad: {r: 0.85882354, g: 0.58431375, b: 0.07058824, a: 0.39215687}
   laneint: 6
+  end: {fileID: 1408035250}
 --- !u!23 &680399779
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20166,6 +20169,7 @@ MonoBehaviour:
   good: {r: 0.21176471, g: 0.6784314, b: 0.12941177, a: 0.39215687}
   bad: {r: 0.85882354, g: 0.58431375, b: 0.07058824, a: 0.39215687}
   laneint: 5
+  end: {fileID: 1408035250}
 --- !u!23 &702433803
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35623,6 +35627,7 @@ MonoBehaviour:
   good: {r: 0.21176471, g: 0.6784314, b: 0.12941177, a: 0.39215687}
   bad: {r: 0.85882354, g: 0.58431375, b: 0.07058824, a: 0.39215687}
   laneint: 1
+  end: {fileID: 1408035250}
 --- !u!23 &1182071494
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -53117,6 +53122,7 @@ MonoBehaviour:
   good: {r: 0.21176471, g: 0.6784314, b: 0.12941177, a: 0.39215687}
   bad: {r: 0.85882354, g: 0.58431375, b: 0.07058824, a: 0.39215687}
   laneint: 2
+  end: {fileID: 1408035250}
 --- !u!23 &1489991123
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -57513,6 +57519,7 @@ MonoBehaviour:
   good: {r: 0.21176471, g: 0.6784314, b: 0.12941177, a: 0.39215687}
   bad: {r: 0.85882354, g: 0.58431375, b: 0.07058824, a: 0.39215687}
   laneint: 4
+  end: {fileID: 1408035250}
 --- !u!23 &1692412480
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -73320,6 +73327,7 @@ MonoBehaviour:
   good: {r: 0.21176471, g: 0.6784314, b: 0.12941177, a: 0.39215687}
   bad: {r: 0.85882354, g: 0.58431375, b: 0.07058824, a: 0.39215687}
   laneint: 3
+  end: {fileID: 1408035250}
 --- !u!23 &2011169637
 MeshRenderer:
   m_ObjectHideFlags: 0

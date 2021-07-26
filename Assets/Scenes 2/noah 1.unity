@@ -4912,8 +4912,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 67
-    y: 70
-    width: 111
+    y: 69
+    width: 113.33333
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4971,7 +4971,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1899099858}
   selectedCommands:
-  - {fileID: 1899099881}
+  - {fileID: 1899099876}
   variables:
   - {fileID: 1899099856}
   description: 
@@ -5389,7 +5389,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Main Menu
+    stringVal: Credits
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1899099877
@@ -5456,7 +5456,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 312
     y: 111
-    width: 71
+    width: 72
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5556,7 +5556,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1899099884
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6144,8 +6144,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 334891551}
   m_HandleRect: {fileID: 334891550}
   m_Direction: 2
-  m_Value: 0.9999998
-  m_Size: 0.65134114
+  m_Value: 0.9999997
+  m_Size: 0.5887621
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

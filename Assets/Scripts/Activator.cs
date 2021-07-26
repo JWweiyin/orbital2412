@@ -18,6 +18,7 @@ public class Activator : MonoBehaviour
 
     public int laneint;
     private string keystring;
+    public GameObject end;
 
 
 
@@ -89,6 +90,7 @@ public class Activator : MonoBehaviour
         
         if (col.gameObject.tag == "END")
             {
+            Destroy(end);
             gm.CompleteLevel();
             Debug.Log("Level End");
             }

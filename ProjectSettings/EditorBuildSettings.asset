@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes 2/noah 1.unity
     guid: c76b7383ea8a3764a8662ab0ca3c8178
+  - enabled: 1
+    path: Assets/Menus/Credits.unity
+    guid: cf3b5c6c8b5513443a666807d979be50
   m_configObjects: {}

@@ -16440,6 +16440,7 @@ MonoBehaviour:
   good: {r: 0.21176471, g: 0.6784314, b: 0.12941177, a: 0.39215687}
   bad: {r: 0.85882354, g: 0.58431375, b: 0.07058824, a: 0.39215687}
   laneint: 6
+  end: {fileID: 792348669}
 --- !u!23 &362296502
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24266,6 +24267,7 @@ MonoBehaviour:
   good: {r: 0.21176471, g: 0.6784314, b: 0.12941177, a: 0.39215687}
   bad: {r: 0.85882354, g: 0.58431375, b: 0.07058824, a: 0.39215687}
   laneint: 5
+  end: {fileID: 792348669}
 --- !u!23 &449737059
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -46953,6 +46955,7 @@ MonoBehaviour:
   good: {r: 0.21176471, g: 0.6784314, b: 0.12941177, a: 0.39215687}
   bad: {r: 0.85882354, g: 0.58431375, b: 0.07058824, a: 0.39215687}
   laneint: 1
+  end: {fileID: 792348669}
 --- !u!23 &766697091
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -72855,6 +72858,7 @@ MonoBehaviour:
   good: {r: 0.21176471, g: 0.6784314, b: 0.12941177, a: 0.39215687}
   bad: {r: 0.85882354, g: 0.58431375, b: 0.07058824, a: 0.39215687}
   laneint: 4
+  end: {fileID: 792348669}
 --- !u!23 &1328700577
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -73722,8 +73726,10 @@ MonoBehaviour:
   inStory: 0
   clearCode: 
   hsCode: 
+  aCode: 
   cleared: 0
   hs: 0
+  attempts: 0
   passfail: {fileID: 1003283769}
 --- !u!114 &1352025575
 MonoBehaviour:
@@ -88006,6 +88012,7 @@ MonoBehaviour:
   good: {r: 0.21176471, g: 0.6784314, b: 0.12941177, a: 0.39215687}
   bad: {r: 0.85882354, g: 0.58431375, b: 0.07058824, a: 0.39215687}
   laneint: 3
+  end: {fileID: 792348669}
 --- !u!23 &1573713559
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -110024,6 +110031,7 @@ MonoBehaviour:
   good: {r: 0.21176471, g: 0.6784314, b: 0.12941177, a: 0.39215687}
   bad: {r: 0.85882354, g: 0.58431375, b: 0.07058824, a: 0.39215687}
   laneint: 2
+  end: {fileID: 792348669}
 --- !u!23 &1974110406
 MeshRenderer:
   m_ObjectHideFlags: 0

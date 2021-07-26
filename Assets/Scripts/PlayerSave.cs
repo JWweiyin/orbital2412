@@ -8,6 +8,7 @@ public class PlayerSave : MonoBehaviour
 {
     private Dictionary<string, int> cleared = new Dictionary<string, int>();
     private Dictionary<string, int> highScore = new Dictionary<string, int>();
+    private Dictionary<string, int> attempts = new Dictionary<string, int>();
     private int savePoint;
     private int showControls;
     private int showControls7;
@@ -16,6 +17,24 @@ public class PlayerSave : MonoBehaviour
     public int hasFile;
     public Button b;
 
+    public void SaveProgress()
+        {
+        foreach (var key in cleared)
+            {
+            PlayerPrefs.SetInt(key.Key, key.Value);
+            }
+        foreach (var key in highScore)
+            {
+            PlayerPrefs.SetInt(key.Key, key.Value);
+            }
+        foreach (var key in attempts)
+            {
+            PlayerPrefs.SetInt(key.Key, key.Value);
+            }
+        PlayerPrefs.SetInt("Save Point", savePoint);
+        PlayerPrefs.SetInt("Show Controls", showControls);
+        PlayerPrefs.Save();
+        }
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +56,15 @@ public class PlayerSave : MonoBehaviour
         highScore.Add("h7", 0000000);
         highScore.Add("h8", 0000000);
 
+        attempts.Add("a1", 0);
+        attempts.Add("a2", 0);
+        attempts.Add("a3", 0);
+        attempts.Add("a4", 0);
+        attempts.Add("a5", 0);
+        attempts.Add("a6", 0);
+        attempts.Add("a7", 0);
+        attempts.Add("a8", 0);
+
         savePoint = 3;
         showControls = 1;
         showControls7 = 1;
@@ -53,22 +81,11 @@ public class PlayerSave : MonoBehaviour
             {
             b.interactable = true;
             }
+
+       // SaveProgress();
         }
 
-    public void SaveProgress()
-        {
-        foreach (var key in cleared)
-            {
-            PlayerPrefs.SetInt(key.Key, key.Value);
-            }
-        foreach (var key in highScore)
-            {
-            PlayerPrefs.SetInt(key.Key, key.Value);
-            }
-        PlayerPrefs.SetInt("Save Point", savePoint);
-        PlayerPrefs.SetInt("Show Controls", showControls);
-        PlayerPrefs.Save();
-        }
+
 
     public void saveMade()
         {
@@ -105,6 +122,10 @@ public class PlayerSave : MonoBehaviour
             PlayerPrefs.SetInt(key.Key, 0);
             }
         foreach (var key in highScore)
+            {
+            PlayerPrefs.SetInt(key.Key, 0);
+            }
+        foreach (var key in attempts)
             {
             PlayerPrefs.SetInt(key.Key, 0);
             }

@@ -57,9 +57,11 @@ public class GameManager : MonoBehaviour
     public int inStory;
     public string clearCode;
     public string hsCode;
+    public string aCode;
 
     public int cleared;
     public int hs;
+    public int attempts;
 
     public Text passfail;
 
@@ -83,10 +85,12 @@ public class GameManager : MonoBehaviour
 
         clearCode = 'c' + levelNbr.ToString();
         hsCode = 'h' + levelNbr.ToString();
+        aCode = 'a' + levelNbr.ToString();
         //Debug.Log(clearCode);
         inStory = PlayerPrefs.GetInt("In Story", 0);
         cleared = PlayerPrefs.GetInt(clearCode);
         hs = PlayerPrefs.GetInt(hsCode, 0);
+        attempts = PlayerPrefs.GetInt(aCode, 0);
 
         if (inStory == 1)
             {
@@ -195,7 +199,8 @@ public class GameManager : MonoBehaviour
             //passfail.color = missc;
             passfail.text = "FAILED";
             }
-        if (cleared == 0)
+
+        if ((cleared == 0))
             {
             if (currentScore >= 700000)
                 {
@@ -203,7 +208,23 @@ public class GameManager : MonoBehaviour
                 PlayerPrefs.SetInt(clearCode, cleared);
                 PlayerPrefs.Save();
                 }
+            /*
+            else if (currentScore < 700000)
+                {
+                attempts += 1;
+                PlayerPrefs.SetInt(aCode, attempts);
+                PlayerPrefs.Save();
+                }
+            */
             }
+        /*
+        if ((cleared == 0) && (attempts == 3))
+            {
+            cleared = 1;
+            PlayerPrefs.SetInt(clearCode, cleared);
+            PlayerPrefs.Save();
+            }
+        */
 
         if (currentScore > hs)
             {
