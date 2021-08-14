@@ -1,7 +1,7 @@
 # orbital2412
 <b><h3>Installation</h3></b>
 <ol>
-  <li> The game application is found under the folder "build milestone 3" under the file name "rhythmgame.exe". 
+  <li> The game application is found under the folder "bitStory!" under the file name "bitStory!.exe". 
 </ol>
 <b><h3>Controls</h3></b>
 <li> Levels can be selected on the menu using the mouse.
@@ -19,7 +19,9 @@
 On top of the features implemented in Milestone 2, we have also implemented: </b>
 <li>Fully fledged Story Mode, which incorporates a full plotline and eight rhythm game levels.
 <li>Implementation of a Pass/Fail system for rhythm game levels. Upon scoring more than 700000 points for a rhythm game level, the user would have been deemed to have passed the level and the level will be available in arcade mode. Otherwise, the level will not be available in arcade mode.
+<li>If a level is failed 3 times, the game deems the level as automatically cleared and allows the player to progress on with the story.</li>
 <li>Implementation of an automatic save system for story mode, where the player will be able to continue their gameplay from the game segment they last ended their play session on. 
 <li>Implementation of pause screens for visual novel and rhythm game segments.
 <li>An options menu with a volume slider for music and keybinding options.
 <li>An high scores page where high scores for rhythm game levels can be viewed.
+
