@@ -200,7 +200,7 @@ public class GameManager : MonoBehaviour
             passfail.text = "FAILED";
             }
 
-        if ((cleared == 0))
+        if ((cleared == 0) && (attempts < 3))
             {
             if (currentScore >= 700000)
                 {
@@ -208,23 +208,23 @@ public class GameManager : MonoBehaviour
                 PlayerPrefs.SetInt(clearCode, cleared);
                 PlayerPrefs.Save();
                 }
-            /*
+
             else if (currentScore < 700000)
                 {
                 attempts += 1;
+                Debug.Log("Added");
                 PlayerPrefs.SetInt(aCode, attempts);
                 PlayerPrefs.Save();
                 }
-            */
             }
-        /*
+          
         if ((cleared == 0) && (attempts == 3))
             {
             cleared = 1;
             PlayerPrefs.SetInt(clearCode, cleared);
             PlayerPrefs.Save();
             }
-        */
+        
 
         if (currentScore > hs)
             {

@@ -90,7 +90,8 @@ public class Activator : MonoBehaviour
         
         if (col.gameObject.tag == "END")
             {
-            Destroy(end);
+            end = col.gameObject;
+            end.SetActive(false);
             gm.CompleteLevel();
             Debug.Log("Level End");
             }
